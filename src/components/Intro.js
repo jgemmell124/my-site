@@ -19,7 +19,7 @@ export default class Intro extends Component {
                 </Typist>
                 <FadeInSection>
                     <div className="intro-subtitle">
-                        Welcome to My website
+                        welcome to my website
                     </div>
                     <div className="intro-desc">
                         i do things with computers
