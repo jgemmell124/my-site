@@ -20,12 +20,17 @@ export default class SkillBar extends Component {
 
                 <p className="bar-label">HTML / CSS</p>
                 <div class="container" style={{"border-color": "white"}}>
-                <BarFade tag="html" className='html'></BarFade>
+                <BarFade tag="html" ></BarFade>
                 </div>
                 
                 <p className="bar-label">JavaScript</p>
                 <div class="container">
-                <BarFade tag="js" className='html'></BarFade>
+                <BarFade tag="js" ></BarFade>
+                </div>
+
+                <p className="bar-label">JavaScript</p>
+                <div class="container">
+                <BarFade tag="java" ></BarFade>
                 </div>
 
                 <p className="bar-label">SQL</p>
@@ -55,12 +60,3 @@ export default class SkillBar extends Component {
         );
     }
 }
-
-{/* <div class="container">
-                <h1>Langauges</h1>
-                <div class="bar learning" data-skill="Python">Test</div>
-                <div class="bar back basic" data-skill="C++">Test</div>
-                <div class="bar back intermediate" data-skill="Java"></div>
-                <div class="bar front advanced" data-skill="HTML / CSS "></div>
-                <div class="bar front expert" data-skill="MATLAB"></div>
-            </div>  */}
