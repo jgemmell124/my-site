@@ -21,7 +21,7 @@ export default class SideBar extends Component {
         const { expanded } = this.state;
 
         const links = [
-            <a href="/">/home</a>,
+            <a href="#intro">/home</a>,
             <a href="#about">/about</a>,
             <a href="#work">/work</a>,
             <a href="#projects">/projects</a>
