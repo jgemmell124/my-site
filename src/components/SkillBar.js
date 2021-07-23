@@ -28,7 +28,7 @@ export default class SkillBar extends Component {
                 <BarFade tag="js" ></BarFade>
                 </div>
 
-                <p className="bar-label">JavaScript</p>
+                <p className="bar-label">Java</p>
                 <div class="container">
                 <BarFade tag="java" ></BarFade>
                 </div>
