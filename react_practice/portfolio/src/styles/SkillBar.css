@@ -1,0 +1,104 @@
+
+  /* Make sure that padding behaves as expected */
+* {box-sizing:border-box;}
+
+
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+  border-style: solid;
+  border-width: .5px;
+  border-left-color: transparent !important;
+  border-top-color: transparent !important;
+  border-bottom-color: transparent !important;
+  border-right-color:rgba(255, 255, 255, 0.445) !important;
+}
+
+
+@keyframes load{
+  from {
+    width: 0%
+  }
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 2px; /* Add top padding */
+  padding-bottom: 2px; /* Add bottom padding */
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  height: auto;
+  animation: load 1s linear;
+  background-color: #61DAFB; /* White text color */
+}
+
+.to-show.true {
+    text-align: right; /* Right-align text */
+    padding-top: 2px; /* Add top padding */
+    padding-bottom: 2px; /* Add bottom padding */
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    height: auto;
+    animation: load .5s linear;
+    background-color: #61DAFB; /* White text color */
+  }
+
+.to-show-false {
+    text-align: right; /* Right-align text */
+    padding-top: 2px; /* Add top padding */
+    padding-bottom: 2px; /* Add bottom padding */
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    height: auto;
+    animation: load-back 1s linear;
+    background-color: transparent; /* White text color */
+  }
+  
+
+.bar-label {
+    margin-top: 3px !important;
+    margin-bottom: 0px !important;
+}
+
+
+
+/* skill tags */
+.html {
+    width: 50%;
+}
+.css {
+  width: 50%;
+}
+.js {
+  width: 30%;
+}
+.cpp {
+  width: 69%;
+}
+.py {
+  width: 80%;
+}
+.sql {
+  width: 10%;
+}
+
+.django {
+  width: 40%;
+}
+
+.react {
+  width: 45%;
+}
+
+
+
+
+
+@keyframes load-back{
+  to {
+    width: 0%
+  }
+}
+
+  
+  

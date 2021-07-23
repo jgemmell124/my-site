@@ -1,0 +1,137 @@
+:root{
+  background-color: #282c34;
+}
+.App {
+  text-align: center;
+  background-color: #282c34;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+/* .App-header {
+  background-color: #282c34;
+  min-height: 20vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+} */
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.fade-in-section {
+  opacity: 0;
+  transform: translateY(10vh);
+  visibility: hidden;
+  transition: opacity 0.6s ease-out, transform 1s ease-out;
+  will-change: opacity, visibility;
+}
+.fade-in-section.is-visible {
+  opacity: 1;
+  transform: none;
+  visibility: visible;
+}
+
+.App {
+  background-color: var(--navy);
+  display: flex;
+  flex-direction: row;
+  /* padding: 36px 76px; */
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+#content {
+  /* padding: 80px 200px; */
+  width: 100vw;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.rs-steps-horizontal .rs-steps-item-content {
+  text-align: left;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+}
+
+.section-header {
+  display: flex;
+  padding-bottom: 42px;
+  width: 100vw;
+}
+
+.section-header::after {
+  content: "";
+  display: block;
+  width: 300px;
+  margin-top: 48px;
+  height: 1px;
+  margin-left: 20px;
+  background-color: #61DAFB;
+}
+
+.section-title {
+  font-family: "NTR", sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  color: whitesmoke;
+  margin: 0%;
+}
+
+@media only screen and (max-width: 600px) {
+  .App {
+    flex-direction: column;
+    padding: 40px 24px;
+  }
+
+  #content {
+    padding: 10px 10px;
+    width: 100%;
+  }
+
+  .section-header {
+    width: unset;
+  }
+
+  .section-header::after {
+    display: none;
+  }
+
+  .section-title {
+    font-size: 32px;
+  }
+}
+
