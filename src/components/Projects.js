@@ -20,9 +20,7 @@ export default class Projects extends Component {
                                 <div class="text">
                                     <h3>{key}</h3>
                                     {projects[key]["desc"].map((desc) => {
-                                        return(<FadeInSection>
-                                                <div className="lang">{desc}</div>
-                                                </FadeInSection>);
+                                        return(<div className="lang">{desc}</div>);
                                     })}
                                     <span className="lang-txt">
                                         {projects[key]['langs']}

@@ -50,7 +50,7 @@ export default class SideBar extends Component {
             </a>
             <a href="https://github.com/jgemmell124" target="_blank"><GitHubIcon/>
             </a>
-            <a href="https://www.linkedin.com/in/johnwgemmell/" target="_blank"><LinkedInIcon/>
+            <a href="https://www.linkedin.com/in/johnwgemmell" target="_blank"><LinkedInIcon/>
             </a>
           </div>
         </div>
