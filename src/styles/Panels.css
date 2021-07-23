@@ -1,0 +1,159 @@
+.MuiTabs-indicator {
+    background-color: #61dafb!important;
+}
+
+
+
+
+.MuiTab-wrapper {
+    color: white !important;
+    font-family: "NTR", sans-serif !important;
+    font-size: 15px !important;
+}
+
+.MuiBox-root-16 {
+    padding: 24px;
+}
+
+ [id^=vertical-tabpane]{
+    margin-top: -28px;
+    padding-left: 25px;
+    flex: 100%;
+    border-color: transparent !important;
+}
+
+.MuiTabs-vertical {
+    border-color: transparent !important;
+}
+
+.joblist-job-title {
+    font-family: "NTR", sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: #d0e9eb;
+  }
+  
+  .joblist-job-company {
+    font-family: "NTR", sans-serif;
+    font-size: 28px;
+    color: #61DAFB;
+    font-weight: bold;
+  }
+  
+  .joblist-duration {
+    font-family: "NTR", sans-serif;
+    font-size: 18px;
+    color: #bcd6d8;
+  }
+
+
+.job-desc {
+    font-family: "NTR",sans-serif;
+    font-size: 20px;
+    color: #bcd6d8;
+}
+
+.job-desc li::marker {
+    color: #61DAFB;
+    content: "▹ ";
+    display: list-item;
+    position: absolute;
+    text-align: -webkit-match-parent;
+}
+
+/* inside panels */
+.MuiTypography-body1 {
+    text-align: left;
+    font-family: "NTR", sans-serif;
+}
+
+.job-company, .job-title {
+    
+    color: white;
+    text-align: left;
+    font-family: "NTR", sans-serif;
+    font-size: 28px !important;
+    font-weight: 700;
+    margin: 0;
+    line-height: unset !important;
+}
+
+.job-company {
+    color: #61DAFB;
+}
+
+  .job-description li {
+    position: relative;
+    padding-left: 30px;
+    padding-bottom: 16px;
+    font-size: 18px;
+    color: var(--slate);
+  }
+  
+  .job-description {
+    padding-top: 24px;
+    max-width: 650px;
+    font-family: "NTR", sans-serif;
+    font-size: 20px;
+  }
+  
+  .job-description a,
+  .job-description b {
+    font-size: 19px;
+    font-weight: bold;
+  }
+
+  .duration {
+    color: rgb(144, 169, 175);
+    font-size: 20px;
+  }
+
+
+
+  /* */
+
+  .MuiTouchRipple-root {
+    color: #61DAFB;
+  }
+
+  .MuiTab-wrapper {
+    text-align: left;
+    font-size: 20px;
+    align-items: flex-start !important;
+}
+  
+  @media only screen and (max-width: 600px) {
+    #work {
+      padding-left: unset !important;
+      padding-right: unset !important;
+      padding-top: 30% !important;
+    }
+  
+    .jss1 {
+      height: unset !important;
+      flex-direction: column !important;
+    }
+  
+    .makeStyles-root-1 {
+      height: unset !important;
+      width: 100% !important;
+      flex-direction: column;
+      flex-wrap: wrap;
+      display: flexbox;
+    }
+
+    .MuiTab-wrapper {
+        text-align: left;
+        align-items: flex-start !important;
+    }
+
+    .joblist-job-title {
+      font-size: 22px;
+    }
+  
+    .job-company {
+      font-size: 22px;
+    }
+  }
+  
+
